@@ -1,0 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(menuName ="Item")]
+public class SOItem : ScriptableObject
+{
+    public Sprite icon;
+    public string itemName;
+    public string itemDesc;
+}
